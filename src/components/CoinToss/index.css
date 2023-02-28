@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.card1 {
+  background-color: #ffffff;
+  border-width: 0px;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #a35200;
+}
+.card-para {
+  color: #334155;
+}
+.coin-image {
+  height: 150px;
+}
+.toss-button {
+  margin: 20px;
+  color: #a35200;
+  background-color: #e2a139;
+  border: 0px;
+  height: 30px;
+  width: 90px;
+  border-radius: 5px;
+}
+.result {
+  color: #475569;
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .results-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
